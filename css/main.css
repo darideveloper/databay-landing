@@ -1,0 +1,81 @@
+/* Responsive */
+@media screen and (max-width: 1080px) {
+  .flavio_img2 {
+    right: 0;
+    left: initial;
+  }
+
+  .flavio_img1 img, .flavio_img2 img {
+    width: 230px;
+    height: auto;
+  }
+
+  .flavio_popupHeader {
+    padding: 12px 10px;
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 780px) {
+    .flavio_rootHeader {
+        grid-template-columns: 1fr;
+    }
+
+    .flavio_containerHeaderLeft {
+        text-align: center;
+        scale: 0.8;
+    }
+
+    .flavio_containerHeaderLeft button {
+        scale: 1.2;
+    }
+
+    .flavio_containerHeaderRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .flavio_img1, .flavio_img2 {
+        width: 40%;
+        position: initial;
+    }
+
+    .flavio_img1 img, .flavio_img2 img {
+        width: 100%;
+    }
+
+    .flavio_img1 {
+        margin-top: -60px;
+        margin-right: -20px;
+    }
+
+    .flavio_img2 {
+        margin-top: 60px;
+        margin-left: -20px;
+    }
+
+    .flavio_popupHeader {
+        scale: 1;
+        bottom: 0;
+        right: 50%;
+        left: initial;
+        transform: translateX(50%);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .flavio_img1, .flavio_img2 {
+        width: 50%;
+    }
+
+    .flavio_containerHeaderLeft {
+        text-align: center;
+        scale: 0.7;
+    }
+
+    .flavio_containerHeaderLeft button {
+        scale: 1.7;
+    }
+}

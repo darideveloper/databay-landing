@@ -1360,7 +1360,7 @@ button.btn.btn-ripple:active::after {
    }
 
 /* debug */
-main, section, .home_container_cards, footer {
+section, .home_container_cards, footer {
     display: none !important
 }
 
