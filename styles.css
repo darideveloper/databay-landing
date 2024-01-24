@@ -1358,3 +1358,13 @@ button.btn.btn-ripple:active::after {
      }
        
    }
+
+/* debug */
+main, section, .home_container_cards, footer {
+    display: none !important
+}
+
+/* Varuables */
+:root {
+    --color-blue: #222e41;
+}
