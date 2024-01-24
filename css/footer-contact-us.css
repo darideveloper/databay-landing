@@ -1,0 +1,732 @@
+/* problema refreshing the page */
+.footer_style-0 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 30px 0px 65px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    font-family: Inter,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-width: 100%;
+    z-index: 1000;
+
+}
+
+.footer_style-1 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    align-items: flex-start;
+    width: 1200px;
+    max-width: calc(100% - 60px);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    position: relative;
+}
+
+.footer_style-2 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+}
+
+.footer_style-3 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+}
+
+.footer_style-4 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px -20px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-flow: row wrap;
+    place-content: flex-start space-between;
+}
+
+.footer_style-5 {
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+    display: block;
+    opacity: 1;
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px 20px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1) 0.2s, opacity 1s cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+    text-align: left;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer_style-6 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+}
+
+.footer_style-7 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+}
+
+.footer_style-8 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    float: left;
+    border-radius: 0px;
+    display: block;
+    overflow: hidden;
+}
+
+.footer_style-9 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    display: block;
+    line-height: 0px;
+    box-shadow: none;
+}
+
+.footer_style-10 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    height: auto;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    border-radius: 0px;
+    display: block;
+    line-height: 0px;
+}
+
+.footer_style-11 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 0px 15px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 0px;
+    display: block;
+    clear: both;
+}
+
+.footer_style-12 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+}
+
+.footer_style-13 {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 40px 0px 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+}
+
+.footer_style-14 {
+    display: inline-block;
+    width: 210px;
+    height: 60px;
+    text-decoration: none solid rgb(38, 82, 46);
+    color: rgb(38, 82, 46);
+    box-sizing: border-box;
+    background: rgba(243, 243, 243, 0.576) none repeat scroll 0% 0% / auto padding-box border-box;
+    outline: rgb(38, 82, 46) none 0px;
+    transition: all 0.2s ease 0s;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+}
+
+.footer_style-15 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    height: auto;
+    max-width: 100%;
+    border: 0px none rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+}
+
+.footer_style-16 {
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+    display: block;
+    opacity: 1;
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px 20px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1) 0.4s, opacity 1s cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+    text-align: left;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.footer_style-17 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+}
+
+.footer_style-18 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+}
+
+.footer_style-19 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    display: block;
+    text-align: left;
+}
+
+.footer_style-20 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+    letter-spacing: -1px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow-wrap: normal;
+}
+
+.footer_style-21 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    display: block;
+}
+
+.footer_style-22 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    display: block;
+}
+
+.footer_style-23 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 0px 35px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 0px;
+    display: block;
+    clear: both;
+}
+
+.footer_style-24 {
+    --primary-color: #191919;
+    --secondary-color: #73d865;
+    --primary-color: #191919;
+    --secondary-color: #73d865;
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px 10.5px 0px 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    float: left;
+    padding-left: 0px;
+    display: block;
+    justify-content: center;
+    line-height: 15px;
+    max-width: 100%;
+}
+
+.footer_style-25 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    box-shadow: none;
+    color: rgb(11, 11, 11);
+    text-decoration: none solid rgb(11, 11, 11);
+    box-sizing: border-box;
+    outline: rgb(11, 11, 11) none 0px;
+    transition: all 0.2s ease 0s;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    display: flex;
+    flex-flow: row nowrap;
+    place-content: center flex-start;
+    align-items: center;
+    line-height: 15.423px;
+    font-weight: 400;
+}
+
+.footer_style-26 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    font-size: 12.3384px;
+    padding: 0px 0px 0px 6.16918px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 13.5722px;
+    order: 2;
+    padding-left: 6.16918px;
+}
+
+.footer_style-27 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 0px 35px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 0px;
+    display: block;
+    clear: both;
+}
+
+.footer_style-28 {
+    
+    --primary-color: #191919;
+    --secondary-color: #73d865;
+    --primary-color: #191919;
+    --secondary-color: #73d865;
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px 10.5px 0px 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    float: left;
+    padding-left: 0px;
+    display: block;
+    justify-content: center;
+    line-height: 15px;
+    max-width: 100%;
+}
+
+.footer_style-29 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    box-shadow: none;
+    color: rgb(11, 11, 11);
+    text-decoration: none solid rgb(11, 11, 11);
+    box-sizing: border-box;
+    outline: rgb(11, 11, 11) none 0px;
+    transition: all 0.2s ease 0s;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    display: flex;
+    flex-flow: row nowrap;
+    place-content: center flex-start;
+    align-items: center;
+    line-height: 15.423px;
+    font-weight: 400;
+}
+
+.footer_style-30 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    font-size: 12.3384px;
+    padding: 0px 0px 0px 6.16918px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 13.5722px;
+    order: 2;
+    padding-left: 6.16918px;
+}
+
+.footer_style-31 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 0px 35px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 0px;
+    display: block;
+    clear: both;
+}
+
+.footer_style-32 {
+    
+    --primary-color: #191919;
+    --secondary-color: #73d865;
+    --primary-color: #191919;
+    --secondary-color: #73d865;
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px 10.5px 0px 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    float: left;
+    display: block;
+    justify-content: center;
+    line-height: 15px;
+    max-width: 100%;
+}
+
+.footer_style-33 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    box-shadow: none;
+    color: rgb(11, 11, 11);
+    text-decoration: none solid rgb(11, 11, 11);
+    box-sizing: border-box;
+    outline: rgb(11, 11, 11) none 0px;
+    transition: all 0.2s ease 0s;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    display: flex;
+    flex-flow: row nowrap;
+    place-content: center flex-start;
+    align-items: center;
+    line-height: 15.423px;
+    font-weight: 400;
+}
+
+.footer_style-34 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    font-size: 12.3384px;
+    padding: 0px 0px 0px 6.16918px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 13.5722px;
+    order: 2;
+    padding-left: 6.16918px;
+}
+
+.footer_style-35 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 0px 60px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 0px;
+    display: block;
+    clear: both;
+}
+
+.footer_style-36 {
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+    display: block;
+    opacity: 1;
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px 20px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1) 0.6s, opacity 1s cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+    text-align: left;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.footer_style-37 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+}
+
+.footer_style-38 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+}
+
+.footer_style-39 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    display: block;
+    text-align: left;
+}
+
+.footer_style-40 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+    letter-spacing: -1px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow-wrap: normal;
+}
+
+.footer_style-41 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    display: block;
+}
+
+.footer_style-42 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    display: block;
+}
+
+.footer_style-43 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 0px 15px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 0px;
+    display: block;
+    clear: both;
+}
+
+.footer_style-44 {
+    
+    --primary-color: #191919;
+    --secondary-color: #ffffff;
+    --primary-color: #191919;
+    --secondary-color: #ffffff;
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px 10.5px 0px 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    float: left;
+    display: block;
+    justify-content: center;
+    line-height: 15px;
+    max-width: 100%;
+}
+
+.footer_style-45 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    box-shadow: none;
+    color: rgb(11, 11, 11);
+    text-decoration: none solid rgb(11, 11, 11);
+    box-sizing: border-box;
+    outline: rgb(11, 11, 11) none 0px;
+    transition: all 0.2s ease 0s;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    display: flex;
+    flex-flow: row nowrap;
+    place-content: center flex-start;
+    align-items: center;
+    line-height: 15.423px;
+    font-weight: 400;
+}
+
+.footer_style-46 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 0px 15px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 0px;
+    display: block;
+    clear: both;
+}
+
+.footer_style-47 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+}
+
+.footer_style-48 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footer_style-49 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    line-height: 19.6px;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+}
+
+.footer_style-50 {
+    box-sizing: border-box;
+    background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px 0px 60px;
+    background-repeat: repeat;
+    outline: rgb(0, 0, 0) none 0px;
+    line-height: 0px;
+    display: block;
+    clear: both;
+}
