@@ -1364,6 +1364,10 @@ section, .home_container_cards, footer {
     display: none !important
 }
 
+section.flavio_boxIcons {
+    display: flex !important;
+}
+
 /* Varuables */
 :root {
     --color-blue: #222e41;

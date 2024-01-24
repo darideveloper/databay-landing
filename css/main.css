@@ -1,20 +1,27 @@
 /* Responsive */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1300px) {
   .flavio_img2 {
     right: 0;
     left: initial;
   }
-
-  .flavio_img1 img, .flavio_img2 img {
-    width: 230px;
-    height: auto;
-  }
-
-  .flavio_popupHeader {
-    padding: 12px 10px;
-    scale: 0.8;
-  }
 }
+
+@media screen and (max-width: 1080px) {
+    .flavio_img2 {
+      right: 0;
+      left: initial;
+    }
+  
+    .flavio_img1 img, .flavio_img2 img {
+      width: 230px;
+      height: auto;
+    }
+  
+    .flavio_popupHeader {
+      padding: 12px 10px;
+      scale: 0.8;
+    }
+  }
 
 @media screen and (max-width: 780px) {
     .flavio_rootHeader {

@@ -1,0 +1,23 @@
+.flavio_contentIcon {
+    position: initial;
+    margin-top: 150px;
+}
+
+.flavio_containerIcons {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 780px) {
+    .flavio_boxIcons {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .flavio_boxIcons {
+        margin-top: 350px;
+    }
+}
