@@ -1,0 +1,21 @@
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+    .solutions h2 + p {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .solutions .buttons-wrapper {
+        flex-direction: column !important;
+    }
+
+    .solutions .buttons-wrapper > span {
+        display: none;
+    }
+
+    .solutions .buttons-wrapper > button:first-child {
+        margin-bottom: 20px !important;
+    }
+}

@@ -1360,9 +1360,9 @@ button.btn.btn-ripple:active::after {
    }
 
 /* debug */
-/* section, .home_container_cards, footer {
+section, .home_container_cards, footer {
     display: none !important
-} */
+}
 
 section.flavio_boxIcons {
     display: flex !important;
@@ -1389,6 +1389,10 @@ section.join-us {
 }
 
 section.innovation {
+    display: block !important;
+}
+
+section.solutions {
     display: block !important;
 }
 
