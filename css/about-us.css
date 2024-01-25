@@ -1,0 +1,35 @@
+/* Responsive */
+@media screen and (max-width: 680px) {
+
+    .about-us > div {
+        justify-content: center !important;
+    }
+
+    .about-us > div > div {
+        width: 80% !important;
+        max-width: 80% !important;
+    }
+
+    .about-us .buttons-wrapper {
+        flex-direction: column !important;
+    }
+
+    .about-us .buttons-wrapper span {
+        display: none;
+    }
+
+    .about-us .buttons-wrapper button:first-child {
+        margin: 20px 0;
+    }
+
+    .about-us > div > div:last-child > div {
+        padding: 30px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-us > div > div {
+        width: 90% !important;
+        max-width: 90% !important;
+    }
+}

@@ -1380,6 +1380,10 @@ div.reviews {
     display: block !important;
 }
 
+section.about-us {
+    display: block !important;
+}
+
 /* Varuables */
 :root {
     --color-blue: #222e41;
