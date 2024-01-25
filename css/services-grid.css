@@ -1,0 +1,56 @@
+/* Responsive */
+.services-grid .container-lg:nth-child(2) {
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.services-grid .container-lg:nth-child(2)::-webkit-scrollbar {
+    display: none;
+}
+
+.services-grid .container-lg:nth-child(2) > div{
+    min-width: 850px;
+}
+
+@media screen and (max-width: 960px) {
+    .services-grid .container-lg .container_input {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: row;
+    }
+
+    .services-grid .container-lg .container_input > [data-testid] {
+        width: 200px;
+    }
+
+    .services-grid .container-lg .container_input > button {
+        width: 10px;
+    }    
+}
+
+@media screen and (max-width: 480px) {
+    .services-grid .container-lg .container_input {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+
+    .services-grid .container-lg .container_input input {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .services-grid .container-lg .container_input input::placeholder {
+        text-align: center;
+    }
+
+    .services-grid h6.pl-16 {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .services-grid .flavio_box1sectionA {
+        font-size: 15px;
+    }
+}

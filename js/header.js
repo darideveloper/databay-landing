@@ -1,3 +1,5 @@
+// Open and close nav on mobile
+
 // Elements
 const headerButtons = document.querySelectorAll('.header-button')
 const nav = document.querySelector('nav')
