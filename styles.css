@@ -1376,6 +1376,10 @@ section.flavio_boxIcons + section + section {
     display: block !important;
 }
 
+div.reviews {
+    display: block !important;
+}
+
 /* Varuables */
 :root {
     --color-blue: #222e41;

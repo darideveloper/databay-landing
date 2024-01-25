@@ -1,0 +1,26 @@
+/* Responsive */
+
+@media screen and (max-width: 1020px) {
+    .reviews .x_card {
+        flex: 0 0 30% !important;
+        width: 30% !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .reviews #x_cardContainer {
+        flex-direction: column !important;
+    }
+
+    .reviews .x_card {
+        flex: 0 0 60% !important;
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .reviews .x_card {
+        flex: 0 0 80% !important;
+        width: 80% !important;
+    }
+}
