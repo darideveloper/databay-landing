@@ -1,0 +1,27 @@
+/* Responsive */
+
+@media screen and (max-width: 850px) {
+    .innovation .card-wrapper {
+        flex-direction: column !important;
+    }
+
+    .innovation .card-wrapper img {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .innovation .card-wrapper img + div {
+        padding: 30px !important;
+        text-align: center;
+    }
+
+    .innovation .card-wrapper img + div p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .innovation .card-wrapper img + div h3 {
+        font-size: 35px !important;
+    }
+}
