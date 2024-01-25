@@ -1,0 +1,37 @@
+/* responsive */
+.join-us .image-wrapper {
+    min-width: 488px !important;
+}
+
+.join-us .image-wrapper img {
+    width: 100% !important;
+    height: auto;
+    margin: 60px 0;
+}
+
+@media screen and (max-width: 810px) {
+    .join-us > div > div {
+        flex-direction: column !important;
+    }
+
+    .join-us .image-wrapper {
+        min-width: 90% !important;
+    }
+
+    .join-us .image-wrapper img {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .join-us .text-wrapper {
+        padding: 30px !important;
+        text-align: center;
+    }
+
+    .join-us .text-wrapper p {
+        display: inline-block;
+        margin: 0 auto !important;
+    }
+}

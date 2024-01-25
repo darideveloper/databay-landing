@@ -1384,6 +1384,10 @@ section.about-us {
     display: block !important;
 }
 
+section.join-us {
+    display: block !important;
+}
+
 /* Varuables */
 :root {
     --color-blue: #222e41;
