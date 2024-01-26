@@ -1359,43 +1359,6 @@ button.btn.btn-ripple:active::after {
        
    }
 
-/* debug */
-section, .home_container_cards, footer {
-    display: none !important
-}
-
-section.flavio_boxIcons {
-    display: flex !important;
-}
-
-section.flavio_boxIcons + section {
-    display: block !important;
-}
-
-section.flavio_boxIcons + section + section {
-    display: block !important;
-}
-
-div.reviews {
-    display: block !important;
-}
-
-section.about-us {
-    display: block !important;
-}
-
-section.join-us {
-    display: block !important;
-}
-
-section.innovation {
-    display: block !important;
-}
-
-section.solutions {
-    display: block !important;
-}
-
 /* Varuables */
 :root {
     --color-blue: #222e41;
