@@ -32,4 +32,8 @@
         width: 90% !important;
         max-width: 90% !important;
     }
+
+    .about-us .with-without-databay {
+        flex-direction: column !important;        
+    }
 }

@@ -732,26 +732,26 @@
 
 /* Responsive */
 @media screen and (max-width: 600px) {
-    footer .style-4 {
+    #footer .style-4 {
         flex-direction: column !important;
     }
 
-    footer .style-4 > div {
+    #footer .style-4 > div {
         width: 100%; 
         max-width: 100%;
         text-align: center;
     }
 
-    footer .style-4 > div a, footer .style-4 > div p, footer .style-4 > div h4, footer .style-4 > div span {
+    #footer .style-4 > div a, footer .style-4 > div p, footer .style-4 > div h4, footer .style-4 > div span {
         text-align: center !important;
         display: block !important;
     }
 
-    footer [data-base] {
+    #footer [data-base] {
         float: none !important;
     }
 
-    footer [data-base="bt_bb_separator"] {
+    #footer [data-base="bt_bb_separator"] {
         margin: 0 !important;
         margin-bottom: 20px !important;
     }
