@@ -1188,15 +1188,6 @@ button.btn.btn-ripple:active::after {
     }
 }
 
-@media (min-width: 600px) and (max-width: 959px) {
-
-    .hide-gt-xs:not(.show-gt-xs):not(.show-sm):not(.show),
-    .hide-sm:not(.show-gt-xs):not(.show-sm):not(.show),
-    .hide:not(.show-gt-xs):not(.show-sm):not(.show) {
-        display: none;
-    }
-}
-
 @media (min-width: 960px) {
 
     .layout-gt-sm,
@@ -1229,15 +1220,6 @@ button.btn.btn-ripple:active::after {
 
     .hide-xs:not(.show-xs):not(.show),
     .hide:not(.show-xs):not(.show) {
-        display: none;
-    }
-}
-
-@media (min-width: 600px) and (max-width: 959px) {
-
-    .hide-gt-xs:not(.show-gt-xs):not(.show-sm):not(.show),
-    .hide-sm:not(.show-gt-xs):not(.show-sm):not(.show),
-    .hide:not(.show-gt-xs):not(.show-sm):not(.show) {
         display: none;
     }
 }
@@ -1362,4 +1344,8 @@ button.btn.btn-ripple:active::after {
 /* Varuables */
 :root {
     --color-blue: #222e41;
+}
+
+.services-grid {
+    display: block !important;
 }
