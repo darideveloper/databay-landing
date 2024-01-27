@@ -20709,7 +20709,7 @@ body::-webkit-scrollbar {
     box-sizing: border-box;
 }
 
-
+/* Responsive */
 @media (max-width: 1200px) {
 
     .community_style-1344 {
@@ -20757,7 +20757,114 @@ body::-webkit-scrollbar {
     }
 }
 
+@media screen and (max-width: 1080px) {
+    .community .container_cards > div {
+        max-width: 30% !important;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .community .container_cards {
+        flex-direction: column !important;
+        width: 100vw !important;
+        margin: 0 auto !important;
+    }
+    
+    .community .container_cards > div {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .community .profile {
+        width: 100vw !important;
+    }
+
+    .community .profile .cards {
+        flex-direction: column !important;
+    }
+
+    .community .profile .cards > div {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .testimonials {
+        grid-template-columns: 1fr !important;
+        width: 100vw;
+    }
+
+    .testimonials > div {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .community .header {
+        margin-top: 550px;
+        width: 90vw !important;
+    }
+
+    .community .header > * {
+        position: initial;
+        white-space: wrap;
+    }
+
+    .community .header h1 {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .community .header h6 {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .community .header button {
+        width: 10px;
+    }
+
+    .community main img.full-with {
+        width: 100vw !important;
+    }
 
 
+    .community .business h2, .community .business h6 {
+        width: 90vw !important;
+        margin: 0 auto;
+        word-wrap: break-word;
+    }
 
 
+    .community .press > * {
+        width: 90vw !important;
+        margin: 0 auto;
+    }
+
+    .community .press > ul {
+        flex-direction: column;
+        row-gap: 0px;
+    }
+
+
+    .community .search {
+        width: 100vw !important;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .community .search > div {
+        padding: 60px 15px;
+    }
+
+    .community .search header + div {
+        width: 100%;
+    }
+
+    .community .search header + div > div {
+        max-width: 110%;
+    }
+}
