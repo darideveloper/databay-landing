@@ -1,4 +1,4 @@
-.style-0 {
+.style--0 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -17,7 +17,7 @@
   width: 100%;
 }
 
-.style-1 {
+.style--1 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -32,7 +32,7 @@
   position: relative;
 }
 
-.style-2 {
+.style--2 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -43,7 +43,7 @@
   outline: rgb(0, 0, 0) none 0px;
 }
 
-.style-3 {
+.style--3 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -54,7 +54,7 @@
   outline: rgb(0, 0, 0) none 0px;
 }
 
-.style-4 {
+.style--4 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -69,7 +69,7 @@
   place-content: flex-start space-between;
 }
 
-.style-5 {
+.style--5 {
   flex-basis: 33.3333%;
   max-width: 33.3333%;
   display: block;
@@ -91,7 +91,7 @@
   padding-right: 20px;
 }
 
-.style-6 {
+.style--6 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -104,7 +104,7 @@
   width: 100%;
 }
 
-.style-7 {
+.style--7 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -115,7 +115,7 @@
   outline: rgb(0, 0, 0) none 0px;
 }
 
-.style-8 {
+.style--8 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -130,7 +130,7 @@
   overflow: hidden;
 }
 
-.style-9 {
+.style--9 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -144,7 +144,7 @@
   box-shadow: none;
 }
 
-.style-10 {
+.style--10 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -160,7 +160,7 @@
   line-height: 0px;
 }
 
-.style-11 {
+.style--11 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -174,7 +174,7 @@
   clear: both;
 }
 
-.style-12 {
+.style--12 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -185,7 +185,7 @@
   outline: rgb(0, 0, 0) none 0px;
 }
 
-.style-13 {
+.style--13 {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
@@ -198,7 +198,7 @@
   outline: rgb(0, 0, 0) none 0px;
 }
 
-.style-14 {
+.style--14 {
   display: inline-block;
   width: 210px;
   height: 60px;
@@ -214,7 +214,7 @@
   background-repeat: repeat;
 }
 
-.style-15 {
+.style--15 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -228,7 +228,7 @@
   outline: rgb(0, 0, 0) none 0px;
 }
 
-.style-16 {
+.style--16 {
   flex-basis: 33.3333%;
   max-width: 33.3333%;
   display: block;
@@ -251,7 +251,7 @@
   background-color: rgb(243, 243, 243);
 }
 
-.style-17 {
+.style--17 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -264,7 +264,7 @@
   width: 100%;
 }
 
-.style-18 {
+.style--18 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -275,7 +275,7 @@
   outline: rgb(0, 0, 0) none 0px;
 }
 
-.style-19 {
+.style--19 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -289,7 +289,7 @@
   text-align: left;
 }
 
-.style-20 {
+.style--20 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -309,7 +309,7 @@
   overflow-wrap: normal;
 }
 
-.style-21 {
+.style--21 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -321,7 +321,7 @@
   display: block;
 }
 
-.style-22 {
+.style--22 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -333,7 +333,7 @@
   display: block;
 }
 
-.style-23 {
+.style--23 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -347,7 +347,7 @@
   clear: both;
 }
 
-.style-24 {
+.style--24 {
   --primary-color: #191919;
   --secondary-color: #73d865;
   --primary-color: #191919;
@@ -368,7 +368,7 @@
   max-width: 100%;
 }
 
-.style-25 {
+.style--25 {
   background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box
     border-box;
   box-shadow: none;
@@ -388,7 +388,7 @@
   font-weight: 400;
 }
 
-.style-26 {
+.style--26 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -403,7 +403,7 @@
   padding-left: 6.16918px;
 }
 
-.style-27 {
+.style--27 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -417,7 +417,7 @@
   clear: both;
 }
 
-.style-28 {
+.style--28 {
   --primary-color: #191919;
   --secondary-color: #73d865;
   --primary-color: #191919;
@@ -438,7 +438,7 @@
   max-width: 100%;
 }
 
-.style-29 {
+.style--29 {
   background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box
     border-box;
   box-shadow: none;
@@ -458,7 +458,7 @@
   font-weight: 400;
 }
 
-.style-30 {
+.style--30 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -473,7 +473,7 @@
   padding-left: 6.16918px;
 }
 
-.style-31 {
+.style--31 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -487,7 +487,7 @@
   clear: both;
 }
 
-.style-32 {
+.style--32 {
   --primary-color: #191919;
   --secondary-color: #73d865;
   --primary-color: #191919;
@@ -507,7 +507,7 @@
   max-width: 100%;
 }
 
-.style-33 {
+.style--33 {
   background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box
     border-box;
   box-shadow: none;
@@ -527,7 +527,7 @@
   font-weight: 400;
 }
 
-.style-34 {
+.style--34 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -542,7 +542,7 @@
   padding-left: 6.16918px;
 }
 
-.style-35 {
+.style--35 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -556,7 +556,7 @@
   clear: both;
 }
 
-.style-36 {
+.style--36 {
   flex-basis: 33.3333%;
   max-width: 33.3333%;
   display: block;
@@ -579,7 +579,7 @@
   background-color: rgb(243, 243, 243);
 }
 
-.style-37 {
+.style--37 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -592,7 +592,7 @@
   width: 100%;
 }
 
-.style-38 {
+.style--38 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -603,7 +603,7 @@
   outline: rgb(0, 0, 0) none 0px;
 }
 
-.style-39 {
+.style--39 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -617,7 +617,7 @@
   text-align: left;
 }
 
-.style-40 {
+.style--40 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -637,7 +637,7 @@
   overflow-wrap: normal;
 }
 
-.style-41 {
+.style--41 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -649,7 +649,7 @@
   display: block;
 }
 
-.style-42 {
+.style--42 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -661,7 +661,7 @@
   display: block;
 }
 
-.style-43 {
+.style--43 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -675,7 +675,7 @@
   clear: both;
 }
 
-.style-44 {
+.style--44 {
   --primary-color: #191919;
   --secondary-color: #ffffff;
   --primary-color: #191919;
@@ -695,7 +695,7 @@
   max-width: 100%;
 }
 
-.style-45 {
+.style--45 {
   background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box
     border-box;
   box-shadow: none;
@@ -715,7 +715,7 @@
   font-weight: 400;
 }
 
-.style-46 {
+.style--46 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -729,7 +729,7 @@
   clear: both;
 }
 
-.style-47 {
+.style--47 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -740,7 +740,7 @@
   outline: rgb(0, 0, 0) none 0px;
 }
 
-.style-48 {
+.style--48 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -753,7 +753,7 @@
   padding-bottom: 0px;
 }
 
-.style-49 {
+.style--49 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -766,7 +766,7 @@
   outline: rgb(0, 0, 0) none 0px;
 }
 
-.style-50 {
+.style--50 {
   box-sizing: border-box;
   background: rgb(243, 243, 243) none repeat scroll 0% 0% / auto padding-box
     border-box;
@@ -786,20 +786,20 @@
 }
 @media screen and (max-width: 600px) {
 
-  #footer .style-4 {
+  #footer .style--4 {
     flex-direction: column !important;
   }
 
-  #footer .style-4 > div {
+  #footer .style--4 > div {
     width: 100%;
     max-width: 100%;
     text-align: center;
   }
 
-  #footer .style-4 > div a,
-  footer .style-4 > div p,
-  footer .style-4 > div h4,
-  footer .style-4 > div span {
+  #footer .style--4 > div a,
+  footer .style--4 > div p,
+  footer .style--4 > div h4,
+  footer .style--4 > div span {
     text-align: center !important;
     display: block !important;
   }
