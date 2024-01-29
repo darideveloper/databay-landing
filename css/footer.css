@@ -784,6 +784,29 @@
 #footer.full-vw {
   width: 100vw;
 }
+
+#footer {
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1150px) {
+
+  #footer .img-wrapper {
+    margin: 0 auto !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #footer .img-wrapper .img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 600px) {
 
   #footer .style--4 {
@@ -814,10 +837,8 @@
   }
 
   #footer .img-wrapper {
-    margin: 0 auto !important;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
+    width: 70%;
+    max-width: 70%;
   }
 }
 
