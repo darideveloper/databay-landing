@@ -1341,11 +1341,6 @@ button.btn.btn-ripple:active::after {
        
    }
 
-/* Varuables */
-:root {
-    --color-blue: #222e41;
-}
-
 .services-grid {
     display: block !important;
 }

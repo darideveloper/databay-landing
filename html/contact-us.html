@@ -35,7 +35,7 @@
         </div>
 
         <div class="home_content_icons">
-          <a class="home_linkIn"  href="https://www.linkedin.com/company/databay-solutions">in</a>
+          <a class="home_linkIn" href="https://www.linkedin.com/company/databay-solutions">in</a>
         </div>
       </div>
       <div class="home_header_down_container">
@@ -45,13 +45,32 @@
           </a>
         </div>
         <nav id="menu" style="display:flex;flex-direction:row;justify-content:center;align-items:center;">
+          <button class="header-button open">
+            <svg stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24">
+              <path
+                d="m21 4c0-.478-.379-1-1-1h-16c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm12.5 10.75c0-.414-.336-.75-.75-.75h-8.5c-.414 0-.75.336-.75.75s.336.75.75.75h8.5c.414 0 .75-.336.75-.75zm0-3.248c0-.414-.336-.75-.75-.75h-8.5c-.414 0-.75.336-.75.75s.336.75.75.75h8.5c.414 0 .75-.336.75-.75zm0-3.252c0-.414-.336-.75-.75-.75h-8.5c-.414 0-.75.336-.75.75s.336.75.75.75h8.5c.414 0 .75-.336.75-.75z"
+                fill-rule="nonzero" />
+            </svg>
+          </button>
+
           <ul
             style="display:flex;flex-direction:row;justify-content: center;align-items: center;width:100%;gap:50px;height:0px;">
+
+            <button id="close-button" class="header-button close">
+              <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
+                viewBox="0 0 24 24">
+                <path
+                  d="m21 3.998c0-.478-.379-1-1-1h-16c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm7.491 6.432 2.717-2.718c.146-.146.338-.219.53-.219.404 0 .751.325.751.75 0 .193-.073.384-.22.531l-2.717 2.717 2.728 2.728c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-2.728-2.728-2.728 2.728c-.147.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l2.728-2.728-2.722-2.722c-.146-.147-.219-.338-.219-.531 0-.425.346-.749.75-.749.192 0 .384.073.53.219z"
+                  fill-rule="nonzero" />
+              </svg>
+            </button>
+
 
             <li class="menu-item highlight">
               <div class="menu-text">
                 <a style="font-family: Inter, sans-serif;" href="./services.html">Servicios</a>
               </div>
+              <!-- start first modal -->
               <div class="sub-menu double">
                 <div class="icon-box gb a">
                   <div class="icon"><i class="far fa-question-circle"></i></div>
@@ -74,13 +93,20 @@
                     <span class="sub-text">Ver servicios y proyectos</span>
                   </a>
                 </div>
-
+                <div class="icon-box gb c">
+                  <div class="icon"><i class="far fa-chess-rook"></i></div>
+                  <a class="text text_1" href="./contact-us.html">
+                    <span class="title">Conócenos <i class="far fa-arrow-right"></i></span>
+                    <span class="sub-text">¿Cómo trabaja el equipo?</span>
+                  </a>
+                </div>
                 <div class="bottom-container">
                   ¿Preparado para empezar? <a data-tf-popup="aaWXeHFt?utm_source=NavBarServicio" data-tf-size="70"
-                  style="color: white; text-decoration: none;cursor: pointer;">Recibe asesoramiento</a></button>
+                    style="color: white; text-decoration: none;">Recibe asesoramiento</a></button>
                 </div>
                 <div class="sub-menu-holder"></div>
               </div>
+              <!-- end first modal -->
             </li>
 
             <li class="menu-item">
@@ -100,16 +126,18 @@
                   <a class="text text_1" href="https://www.linkedin.com/company/databay-solutions">
                     <span class="title">LinkedIn <i class="far fa-arrow-right"></i></span>
                     <span class="sub-text">Síguenos en LinkedIn.</span>
-                </a>
+                  </a>
                 </div>
               </div>
             </li>
 
             <li class="menu-item">
               <div class="menu-text">
-                <a style="font-family: Inter, sans-serif;" href="./digitizing-agents.html">Agente digitalizadores</a>
+                <a style="font-family: Inter, sans-serif;" href="./digitizing-agents.html">Agente
+                  digitalizadores</a>
               </div>
             </li>
+
             <li class="menu-item">
               <div class="menu-text">
                 <a style="font-family: Inter, sans-serif;" href="./contact-us.html">Contactanos</a>
@@ -129,6 +157,7 @@
       </div>
     </div>
   </header>
+  
   <!-- end header code -->
   <div class="style-1">
     <div class="style-2">
@@ -776,6 +805,9 @@
   <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
   <script src="//embed.typeform.com/next/embed.js"></script>
   <script src="../js/contact-us.js"></script>
+
+  <!-- Responsive scripts -->
+  <script src="../js/header.js"></script>
 </body>
 
 </html>
